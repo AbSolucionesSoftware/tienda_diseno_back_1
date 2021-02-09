@@ -47,7 +47,8 @@ const TiendaSchema = new Schema({
     politicasVentas: String,
     politicasEnvios: String,
     politicasDescuentos: String,
-    politicasDevolucion: String
+    politicasDevolucion: String,
+    diasHorariosEmpresas: String,
 });
 
 module.exports = model('tienda', TiendaSchema);
